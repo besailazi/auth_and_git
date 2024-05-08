@@ -1,10 +1,10 @@
 import {firebaseConfig} from "./firebaseConfig"
 
-import { initalizedApp } from "firebase/app"
+import { initializeApp } from "firebase/app"
 
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth"
 
-initalizedApp(firebaseConfig)
+initializeApp(firebaseConfig)
 
 const authService = getAuth();
 
