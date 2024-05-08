@@ -33,3 +33,7 @@ form{
 .secret-section{
 display: none;
 }
+
+.sign-out-button{
+	display: none;
+}
